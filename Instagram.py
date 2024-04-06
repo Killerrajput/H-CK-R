@@ -4,7 +4,7 @@ import threading
 
 sg.theme('DarkBlue3')
 
-password_list = open("C:\\Users\\admin\\Desktop\\New folder\\Brute Force\\rockyou.txt", "r", encoding="utf-8").read().splitlines()
+password_list = open("rockyou.txt", "r", encoding="utf-8").read().splitlines()
 
 layout = [[sg.Text('Enter Instagram username:')],
           [sg.InputText()],
